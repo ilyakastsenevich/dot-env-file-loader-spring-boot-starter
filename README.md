@@ -1,4 +1,4 @@
-# dot-env-file-loader-spring-boot-starter
+# .env file loader spring boot starter
 
 Spring Boot starter that loads `.env` file into the Spring `Environment` at application startup.
 
@@ -16,6 +16,8 @@ The starter registers an `EnvironmentPostProcessor` that runs before `applicatio
 4. Config server sources
 
 This means real environment variables override `.env` entries, and `.env` values override config files.
+
+Since `.env` is loaded before cloud config sources, you can use `.env` to disable Spring Cloud Config repo loading entirely. For example, set `SPRING_CLOUD_CONFIG_ENABLED=false` in your `.env` file to skip the config server bootstrap.
 
 ## Usage
 
