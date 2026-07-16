@@ -6,7 +6,7 @@
 
     <groupId>io.github.ilyakastsenevich</groupId>
     <artifactId>dot-env-file-loader-spring-boot-starter</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>dot-env-file-loader-spring-boot-starter</name>
     <description>Spring Boot starter that loads .env file into the Spring Environment</description>
