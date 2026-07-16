@@ -1,8 +1,9 @@
 # .env file loader spring boot starter
 
-Spring Boot starter that loads `.env` file into the Spring `Environment` at application startup.
+Loads `.env` entries into the Spring `Environment` at application startup.
 
-> **Requires Spring Boot 4.0+ and Java 17.**
+> [!IMPORTANT]
+> **Requires Spring Boot 4.0+ and Java 17+.**
 
 ## How It Works
 
